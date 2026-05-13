@@ -1,0 +1,7 @@
+.tmp_localappdata/
+design-previews/
+project.private.config.json
+
+# Common local noise
+Thumbs.db
+.DS_Store

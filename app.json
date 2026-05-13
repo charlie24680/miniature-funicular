@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/login/index",
+    "pages/students/list/index",
+    "pages/students/detail/index",
+    "pages/plan/list/index",
+    "pages/plan/create/index",
+    "pages/plan/detail/index",
+    "pages/plan/evaluate/index",
+    "pages/my/index",
+    "pages/privacy/index",
+    "pages/attendance/launch/index",
+    "pages/attendance/records/index",
+    "pages/competition/list/index",
+    "pages/competition/create/index",
+    "pages/fitness/index",
+    "pages/report/index",
+    "pages/parent/index",
+    "pages/booking/create/index",
+    "pages/booking/list/index",
+    "pages/booking/join/index",
+    "pages/coaches/list/index",
+    "pages/coaches/edit/index",
+    "pages/student-reward/index"
+  ],
+  "tabBar": {
+    "color": "#b5a0ab",
+    "selectedColor": "#e67ea0",
+    "backgroundColor": "#fff7fa",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/plan/list/index",
+        "text": "计划"
+      },
+      {
+        "pagePath": "pages/students/list/index",
+        "text": "学员"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff1f5",
+    "navigationBarTitleText": "教练训练计划",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fff4f7"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
